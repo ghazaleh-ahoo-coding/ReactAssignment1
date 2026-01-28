@@ -9,12 +9,14 @@ import './App.css'
 
 function App() {
   return (
- <div className="pro-container">
+    <div>
+      <h1 className="title"> GOLDEN GALLERY</h1>
+      <div className="pro-container">
   <div className="card-pro">
     <ProductCard
       productImg={jeepImg}
       name="Jeep Recon"
-      price={54020}
+     price={68995}
     />
   </div>
 
@@ -22,7 +24,7 @@ function App() {
     <ProductCard
       productImg={KiaImg}
       name="Kia Telluride"
-      price={85430}
+      price={38600}
     />
   </div>
 
@@ -30,7 +32,7 @@ function App() {
     <ProductCard
       productImg={AlfaImg}
       name="Alfa Romeo Stelvio EV"
-      price={70430}
+      price={49995}
     />
   </div>
 
@@ -38,10 +40,12 @@ function App() {
     <ProductCard
       productImg={GenImg}
       name="Genesis GV60 Megma"
-      price={90440}
+      price={110000}
     />
   </div>
 </div>
+    </div>
+ 
 
 
      
