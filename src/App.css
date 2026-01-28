@@ -11,7 +11,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
- background-image: linear-gradient(to left, rgb(228, 135, 15), rgb(122, 55, 1));
+ background-image: linear-gradient(to left, rgb(235, 155, 51), rgb(122, 55, 1));
 }
 .card-pro{
   display: flexbox;
