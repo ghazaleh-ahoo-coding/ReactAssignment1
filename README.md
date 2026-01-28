@@ -1,16 +1,3 @@
-# React + Vite
+# React Assignment 1 - Reusable Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project demonstrates creating a simple reusable React component named `ProductCard` that accepts at least two props (`name` and `price`) and renders content based on them. The component is implemented as a functional component with clean, readable JSX and is reused multiple times in `App.jsx` with different props to showcase reusability. The repository contains a complete React project structure including `package.json`, the `src` folder with all components, and the `public` folder, following assignment rules for component naming, props usage, and functional component implementation. Each instance of the component can be styled independently and displays different data to prove reusability.
