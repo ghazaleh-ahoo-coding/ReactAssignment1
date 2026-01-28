@@ -11,21 +11,37 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
- background-image: linear-gradient(to left, rgb(235, 155, 51), rgb(122, 55, 1));
+ background-image: linear-gradient(to left, rgb(59, 57, 53), rgb(24, 23, 23));
+}
+.pro-container{
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
 }
 .card-pro{
-  display: flexbox;
+  display: flex;
+  
 	justify-content: center;
 	justify-items: center;
 	background: rgba(255, 255, 255, 0.2);
 	padding: 3rem;
 	border-radius: 12px;        
   backdrop-filter: blur(10px); 
-	height: 350px;
-	width: 400px;
+	height: 250px;
+	width: 250px;
 
 }
 .text-pro{
    color: white;
   text-shadow: 6px 2px 4px #000000;
+}
+.card-pro{
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card-pro:hover {
+  transform: translateY(-10px) scale(1.05); 
+  background-color: rgba(255, 255, 255, 0.2); 
+  cursor: pointer; 
 }
