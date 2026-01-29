@@ -37,10 +37,10 @@ function App() {
   </div>
 
   <div className="card-pro">
-    <ProductCard
-      productImg={GenImg}
-      name="Genesis GV60 Megma"
-      price={110000}
+     <ProductCard 
+     productImg={GenImg}
+     name="Genesis GV60"
+     price={11000}
     />
   </div>
 </div>
